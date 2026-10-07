@@ -6,7 +6,7 @@ from checker import check_url
 
 def main():
     targets_file = Path(__file__).with_name("targets.json")
-    targets = json.loads(targets_file.read_text())
+    targets = json.loads(targets_file.read_text(encoding="utf-8-sig"))
 
     print(f"{'URL':<35} {'STATUS':<8} {'MS':<9} {'UP':<5} ERROR")
     for url in targets:
