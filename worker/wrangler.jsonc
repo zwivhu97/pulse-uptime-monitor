@@ -5,5 +5,12 @@
 	"observability": {
 		"enabled": true,
 	},
+	"d1_databases": [
+		{
+			"binding": "pulse_db",
+			"database_name": "pulse-db",
+			"database_id": "2ef9d73a-00b0-4359-bff7-99be9f8f2bbd",
+			"remote": true
+		}
+	],
 }
-
