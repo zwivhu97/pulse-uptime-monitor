@@ -24,3 +24,5 @@ Implementation details and technology choices are recorded in
 
 - [Architecture](docs/architecture.md)
 - [Decisions](docs/decisions.md)
+- unique verification code
+WTC-LEJLBQWF
